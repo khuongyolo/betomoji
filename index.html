@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ベト文字</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="levelup.css">
+    <link rel="stylesheet" href="moji.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header class="logo">
+        <h1>ベト文字</h1>
+    </header>
+    
+    
+
+    <ul id="menu">
+        <li data-menuanchor="home" class="active"><a href="#home"><img src="image/home.png" alt=""></a></li>
+        <li data-menuanchor="moji"><a href="#moji/"><img src="image/abc.png" alt=""></a></li>
+        <li data-menuanchor="about"><a href="#about"><img src="image/infor.png" alt=""></a></li>
+    </ul>
+    <div id="fullpage">
+        <div class="section hom">
+          <header id="headHome">
+            ホーム
+          </header>
+          <blockquote id="quoteHome">
+            <p>ベト文字はベトナム語の文字という意味です。
+            </p>
+            <p>17世紀、ポルトガルの僧侶によって、ベトナム語の文字はラテン文字に基づいて作成されました。</p>
+          </blockquote>
+        </div>
+        <div class="section moj">
+          <header id="headMoji">
+            文字
+          </header>
+            <div class="slide">
+              <blockquote id="quoteMoji">
+                <p></p>
+              </blockquote>
+             <div class="moji">
+              <a class="container" href="#moji/1">
+		              <img src="img/orangecircle_a.png" />
+		        <div class="title">小文字</div>
+            	</a>
+	            <a class="container" href="#moji/2">
+		              <img src="img/bluecircle_A.png" />
+		          <div class="title">大文字</div>
+            </div> 
+	</a>
+            </div>
+            <div class="slide">
+              <header id="headKomoji">
+                小文字
+              </header>
+              <div class="box">
+                <div class="oddboxinner"></div>
+                <div id="video">
+                    <video autoplay muted  id="videodefault">
+                        <source src="mp4/a.mp4" type="video/mp4">
+                      </video>
+                      
+                </div >
+                <div class="button">
+                  <div class="video">
+                    <img src="img/replay.png" alt="" id="myBtn" onclick="myFunction()">
+                  </div>
+                  <div class="audio" onclick="audio.play()">
+                    <img src="img/headphones.png" alt="">
+                    <audio src="voice/SA.mp3" id="audio"></audio>
+                  </div>
+                </div>
+
+                  <script src="script.js" async defer></script>
+            </div>
+            <div class="keyboard">
+                <div class="row1">
+                  
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/a.mp4'), A()" >
+                    a
+                  </div>
+                  <div class="key"  onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/aw.mp4'), AW()" >
+                    ă
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/aa.mp4'), AA()">
+                    â
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/b.mp4'), B()">
+                    b
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/c.mp4'), C()">
+                    c
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/d.mp4'), D()">
+                    d
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/dd.mp4'), DD()">
+                    đ
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/e.mp4'), E()">
+                    e
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/ee.mp4'), EE()">
+                    ê
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/g.mp4'), G()">
+                    g
+                  </div>
+                </div>
+                <div class="row2">
+                  
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/h.mp4'), H()">
+                    h
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/i.mp4'), I()">
+                    i
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/k.mp4'), K()">
+                    k
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/l.mp4'), L()">
+                    l
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/m.mp4'), M()">
+                    m
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/n.mp4'), N()">
+                    n
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/o.mp4'), O()">
+                    o
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/oo.mp4'), OO()">
+                    ô
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/ow.mp4'), OW()">
+                    ơ
+                  </div>
+                </div>
+                
+                <div class="row3">
+                 
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/p.mp4'), P()">
+                    p
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/q.mp4'), Q()">
+                    q
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/r.mp4'), R()">
+                    r
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/s.mp4'), S()">
+                    s
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/t.mp4'), T()">
+                    t
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/u.mp4'), U()">
+                    u
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/uw.mp4'), UW()">
+                    ư
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/v.mp4'), V()">
+                    v
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/x.mp4'), X()">
+                     x
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefault').setAttribute('src', 'mp4/y.mp4'), Y()">
+                    y
+                  </div>
+                </div>   
+              </div>
+            </div>
+
+            <!-- OOMOJI -->
+            <div class="slide">
+              <header id="headOmoji">
+                大文字
+              </header>
+              <blockquote id="quoteOmoji">
+                </p>
+              </blockquote>
+              <div class="box">
+                <div class="oddboxinner"></div>
+                <div id="video">
+                    <video autoplay muted  id="videodefaults">
+                        <source src="mp4/SA.mp4" type="video/mp4">
+                      </video>
+                      
+                </div >
+                  <div class="button">
+                      <div class="video">
+                        <img src="img/replay.png" alt="" id="myBtn" onclick="myFunctions()">
+                      </div>
+                      <div class="audios" onclick="audios.play()">
+                        <img src="img/headphones.png" alt="">
+                        <audio src="voice/SA.mp3" id="audios"></audio>
+                      </div>
+                  </div>
+                  <script src="script.js" async defer></script>
+            </div>
+            <div class="keyboards">
+                <div class="row1s">
+                  
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SA.mp4'), SA()">
+                    A
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SAW.mp4'), SAW()">
+                    Ă
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SAA.mp4'), SAA()">
+                    Â
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SB.mp4'), SB()">
+                    B
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SC.mp4'), SC()">
+                    C
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SD.mp4'), SD()">
+                    D
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SDD.mp4'), SDD()">
+                    Đ
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SE.mp4'), SE()">
+                    E
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SEE.mp4'), SEE()">
+                    Ê
+                  </div>
+                  <div class="keys" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SG.mp4'), SG()">
+                    G
+                  </div>
+                </div>
+                    
+                <div class="row2s">
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SH.mp4'), SH()">
+                    H
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SI.mp4'), SI()">
+                    I
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SK.mp4'), SK()">
+                    K
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SL.mp4'), SL()">
+                    L
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SM.mp4'), SM()">
+                    M
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SN.mp4'), SN()">
+                    N
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SO.mp4'), SO()">
+                    O
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SOO.mp4'), SOO()">
+                    Ô
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SOW.mp4'), SOW()">
+                    Ơ
+                  </div>
+                </div>
+                
+                <div class="row3s">
+                 
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SP.mp4'), SP()">
+                    P
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SQ.mp4'), SQ()">
+                    Q
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SR.mp4'), SR()">
+                    R
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SS.mp4'), SS()">
+                    S
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/ST.mp4'), ST()">
+                    T
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SU.mp4'), SU()">
+                    U
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SUW.mp4'), SUW()">
+                    Ư
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SV.mp4'), SV()">
+                    V
+                  </div>
+                  <div class="key" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SX.mp4'), SX()">
+                     X
+                  </div>
+                  <div class="keys" onclick="document.getElementById('videodefaults').setAttribute('src', 'mp4/SY.mp4'), SY()">
+                    Y
+                  </div>
+                </div>   
+              </div>
+            </div>
+            <!-- <div class="slide"> Slide 4 
+
+            </div> -->
+        </div>
+
+
+    
+        <div class="section abou">
+          <header id="headAbout">
+            問合せ先
+          </header>
+          <div class="background">
+            <div class="container">
+              <div class="screen">
+                <!-- <div class="screen-header">
+                  
+                </div> -->
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>問い合せ</span>
+                    </div>
+                    
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="名前">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="メール">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="メッセージ">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button" onclick="feedBack()">送信</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <footer>
+              Navigation icons created by Freepik
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
